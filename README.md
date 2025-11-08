@@ -1,5 +1,16 @@
 # Snark factory — Pixel-perfect integration (refined)
-1) Place exports from Figma into `assets/img/`:
-   - `logo-snark.svg`, `icon-*.svg`, `hero.webp`, `salad.webp`, ...
-2) Fill exact values in `styles/tokens.css` (colors/typos/radii/shadows).
-3) Open `index.html` via a local server and adjust `styles/style.css` to match Figma precisely.
+ Ce dépôt contient l’intégration HTML/CSS fidèle à la maquette Figma (header arrondi, hero avec Union.svg, carte “newsletter” chevauchant le footer, footer en grille, etc.).
+
+
+ ## Structure 
+
+ ```
+├─ assets/
+│  ├─ icon/                 # icônes SVG (facebook.svg, twitter.svg, LangChange.svg, Union.svg, flag-*.svg…)
+│  ├─ img/                  # images (Snark_logo_noir.png, Snark_logo_blanc.png, Image.png, Salade.png…)
+├─ styles/
+│  ├─ globals.css           # reset léger + variables globales (peut contenir les tokens)
+│  └─ style.css             # styles de page (topbar, hero, newsletter, footer…)
+├─ index.html               # page unique
+└─ README.md
+```
