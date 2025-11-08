@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Snark factory — Test Integration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container">
+        <a class="brand" href="#">
+          <img src="assets/img/Snark_logo_noir.png" alt="Snark factory" />
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#">Who we are</a>
+          <a href="#">Blog</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <div class="lang-cta">
+          <a class="btn btn-accent" href="#">My account</a>
+          <button class="lang" type="button" aria-label="Change language">
+            <img
+              class="lang-flag"
+              src="assets/icon/flag-uk.svg"
+              alt="English"
+              onerror="this.src='assets/icon/flag-uk.svg'"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-headline">
+            <span class="badge badge--play">Starter</span>
+            <h1>Salty cake with Espelette pepper</h1>
+            <p class="byline">by Nicolas Cooking</p>
+            <div class="hero-decor" aria-hidden="true"></div>
+          </div>
+
+          <figure class="hero-media">
+            <img src="assets/img/Image.png" alt="Video cover" />
+            <button class="play" aria-label="Play video"></button>
+          </figure>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="nl-inner">
+            <p class="kicker">
+              <strong>New recipes, Super coachs</strong>, don’t miss our latest news !
+            </p>
+            <form class="nl-form" action="#" method="post" novalidate>
+              <label class="sr-only" for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Email address" required />
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+            <img class="salad" src="assets/img/Salade.png" alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      
+      <div class="container">
+        <div class="col brand-col">
+          <img src="assets/img/Snark_logo_blanc.png" alt="Snark factory" class="logo" />
+        </div>
+        <div class="col">
+          <h3>Follow us</h3>
+          <ul class="social">
+            <li><a aria-label="Facebook" href="#"><img src="assets/icon/facebook.svg" alt="" /></a></li>
+            <li><a aria-label="Twitter" href="#"><img src="assets/icon/twitter.svg" alt="" /></a></li>
+            <li><a aria-label="Instagram" href="#"><img src="assets/icon/instagram.svg" alt="" /></a></li>
+            <li><a aria-label="LinkedIn" href="#"><img src="assets/icon/linkedin.svg" alt="" /></a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="links">
+            <li><a href="#">Legal mentions</a></li>
+            <li><a href="#">Terms &amp; conditions</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <a class="btn btn-cta" href="#">Contact us</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+/* :root {
+
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-text: #183247;
+  --color-muted: #6b8296;
+  --color-brand: #0b7c80;
+  --color-accent: #ff9d00;
+  --color-newsletter-bg: #0a4950;
+  --color-footer-bg: #07353a;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+
+  --font-base: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif;
+  --h1-size: 64px;
+  --h1-line: 1.1;
+  --body-size: 16px;
+  --body-line: 1.6;
+
+  --radius-hero: 24px;
+  --radius-pill: 999px;
+  --shadow-lg: 0 24px 64px var(--color-shadow);
+
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 40px;
+  --space-7: 56px;
+  --container-max: 1200px;
+} */
+:root {
+  /* Couleurs Figma */
+  --color-bg: #FFFFFF;           
+  --color-surface: #FFFFFF;      
+
+  /* Palette fournie */
+  --color-brand: #00525D;        
+  --color-link:  #0052B4;        
+  --color-danger:#D80027;        
+
+  /* Dérivées pour la page */
+  --color-newsletter-bg: var(--color-brand);
+  --color-footer-bg:     var(--color-brand);
+
+  /* Reste inchangé tant qu’on n’a pas la valeur exacte depuis Figma */
+  --color-text:  #183247;        
+  --color-muted: #6B8296;        
+  --color-accent:#FF9D00;        
+
+  /* Typo & effets (ajuste si Figma donne d’autres valeurs) */
+  --font-base: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --h1-size: 64px;               
+  --h1-line: 1.1;
+  --body-size: 16px;
+  --body-line: 1.6;
+
+  --radius-hero: 24px;
+  --radius-pill: 999px;
+  --shadow-lg: 0 24px 64px rgba(0,0,0,.10);
+
+  --space-1: 8px; --space-2: 12px; --space-3: 16px; --space-4: 24px;
+  --space-5: 32px; --space-6: 40px; --space-7: 56px;
+  --container-max: 1200px;
+}
